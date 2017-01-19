@@ -1,0 +1,56 @@
+.baseinfo{
+	float:left;
+	margin-top:2rem;
+	margin-bottom:2rem;
+	margin-left:10%;
+	width:80%;
+	height:10rem;
+	font-family:"黑体";
+}
+
+.weibo-infolist{
+	width:100%;
+	height:2rem;
+	line-height:2rem;
+	overflow:hidden; /* 内容超出宽度时隐藏超出部分的内容 */ 
+	text-overflow:ellipsis;/*  当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/ 
+}
+
+.content-container{
+	display:block;
+	margin-left:10%;
+	width:80%;
+}
+
+/*tree*/
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 11px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.tooltip{
+	position: absolute;
+	width: 150;
+	height: auto;
+	font-family: simsun;
+	font-size: 14px;
+	color : white;
+	border-style: solid; 
+	border-width: 1px;
+	background-color: white;
+	border-radius: 5px;
+	background-color: rgba(96,96,96,0.6);
+	padding:5px;
+}

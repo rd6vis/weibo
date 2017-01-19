@@ -1,0 +1,24 @@
+{
+	"weibo":[
+		 {
+				"Id":"001",
+				"content":"weibo1"
+		 },
+		 {
+				"Id":"002",
+				"content":"weibo2"
+		 }
+	],
+	"event":[
+		 {
+				"Id":"00001",
+				"content":"event1"
+		 }
+	],
+	"account":[
+		 {
+				"Id":"01",
+				"content":"account1"
+		 }
+	]
+}

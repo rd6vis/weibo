@@ -1,0 +1,74 @@
+html,body{
+	width:100%;
+	height:100%;
+	min-width:1000px;
+	min-height:900px;
+}
+
+#container{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+
+.select-container{
+	width:100%;
+}
+
+.selectbox-container{
+	width:50%;
+	height:3rem;
+	margin:6rem auto 2rem auto;
+	line-height:3rem;
+}
+
+.selectbox{
+	float:left;
+	display:block;
+	width:70%;
+	margin-left:10%;
+	line-height:2rem;
+	font-size:20px;
+	box-shadow:1px 1px 5px gray inset;
+}
+
+.div-container{
+    flex:1;
+    height:80%;
+    margin:0 2rem;
+    border:1px solid rgb(235,235,235);
+    display: flex;
+    flex-direction: column;
+}
+
+.div-container-title{
+    font-family: "Microsoft YaHei";
+    padding:10px 20px;
+    background: rgb(235,235,235);
+}
+
+.content{
+    width:100%;
+    flex:1;
+    overflow:auto;
+}
+
+.div-list-content{
+	height:18px;
+	line-height: 23px;
+    padding:5px 10px;
+    font-family: "Microsoft YaHei";
+    color:rgb(30,30,30);
+    cursor: pointer;
+	word-break: break-all;
+	white-space: pre-wrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.div-list-content:hover{
+	height:auto;
+    background: rgb(73,140,183);
+    color:white;
+}
